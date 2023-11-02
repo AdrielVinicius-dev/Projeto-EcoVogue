@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 900px) {
+
+    #imagem-fundo{
+        height: 40vh;
+    }
+
+    #produtos{
+        gap: 50px;
+    }
+
+    #caixas-pretas{
+        gap: 50px;
+    }
+
+    #caixa1{
+        height: 450px;
+        width: 350px;
+    }
+
+    #caixa2{
+        height: 450px;
+        width: 350px;
+    }
+
+    #descrição{
+        display: none;
+    }
+
+    #descrição2 {
+        max-width: 300px;
+        display: block;
+        padding-top: 30px;
+    }
+
+    #produto-meio{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 70px;  
+    }
+    
+    #imagens-3{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 10px;
+    }
+
+    #preço2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #comprar-{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    #descrição2 h2{
+        margin-bottom: 10px;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 400;
+    }
+    
+    #descrição2 p{
+        text-align: justify;
+    }
+    
+    #descrição2 button{
+        cursor: pointer;
+        padding: 10px;
+        width: 200px;
+        height: 40px;
+        font-size: 17px;
+        background-color: rgb(119, 77, 22);
+    }
+    
+    #descrição2 button:hover{
+        background-color: rgb(129, 103, 69);
+        transition-duration: .5s;
+    }
+    
+    #descrição2 button a {
+        font-family: 'Cormorant Garamond', serif;
+        color: white;
+        text-decoration: none;
+    }
+    
+    #quantidade{
+        margin-bottom: 20px;
+        border: 1px solid black;
+        padding: 10px;
+        width: 80px;
+    }
+    
+    #descrição2 p{
+        line-height: 1.5em;
+    }
+    
+}

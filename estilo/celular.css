@@ -1,0 +1,517 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Cormorant+Garamond:ital@1 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 70px;
+}
+
+#ecovogue{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 300;
+    
+}
+
+div{
+    background-color: white;
+}
+
+#busca{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#perfil-carrinho{
+    display: flex;
+    gap: 20px;
+}
+
+#nav{
+    font-size: 17px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav a:hover{
+    color: rgb(100, 100, 100);
+}
+
+#texto{
+    margin: 0 auto 50px;
+    width: 400px;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+#imagem-fundo{
+    background-image: url(../imagens/imagem2.fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#imagem-fundo h2{
+    margin: 10px;
+    text-align: center;
+    color: rgb(70, 70, 70);
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+
+}
+
+#imagem-fundo p{
+    font-size: 19px;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+main{
+    margin: auto;
+}
+
+main h1{
+    color: rgb(94, 93, 93);
+    letter-spacing: 3px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 10px;
+}
+
+.linhas-produtos{
+    margin: 15px 0 8px 0;
+    text-align: center;
+}
+
+#linha1{
+    background-color: rgb(252, 251, 250);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 40px;
+    padding: 50px 0;
+}
+
+#carteira{
+    background-color: white;
+    min-width: 200px;
+    max-width: 160px;
+    height: 355px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+#mochila{
+    background-color: white;
+    min-width: 200px;
+    max-width: 200px;
+    height: 355px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+#cinto{
+    background-color: white;
+    min-width: 200px;
+    max-width: 250px;
+    height: 355px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.comprar{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.comprar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.comprar a:hover{
+    color: rgb(105, 69, 1);
+    font-size: 17px;
+    transition-duration: .8s;
+}
+
+#mochila-couro{
+    background-color: white;
+    min-width: 200px;
+    max-width: 300px;
+    max-height: 355px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+#relogio-couro{
+    background-color: white;
+    min-width: 200px;
+    max-width: 300px;
+    height: 355px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+#pochete{
+    background-color: white;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 355px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+img:hover{
+    scale: 1.08;
+}
+
+#menu-bloco{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 40px 20px;
+}
+
+#relogios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagens/pexels-castorly-stock-3829446.jpg);
+    width: 180px;
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#bolsas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagens/bolsa-fundo.jpg);
+    background-position: bottom center;
+    width: 180px;
+    height: 75px;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+#cintos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagens/cintos-fundo.jpg);
+    width: 180px;
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#carteiras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagens/carteira-fundo.jpg);
+    width: 180px;
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#estojos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagens/estojo-fundo.jpg);
+    width: 180px;
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.itens a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#texto-meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    
+}
+
+#texto-meio b{
+    font-weight: 500;
+    color: gray;
+
+}
+
+
+#texto-meio h2{
+    margin: 13px 0;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+#texto-meio p{
+    margin: 13px 0;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Cormorant Garamond', serif; 
+}
+
+#texto-meio a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#texto-meio a:hover{
+    color: gray;
+    text-decoration: underline;
+    transition-duration: .7s;
+
+}
+
+#caixas-pretas{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+}
+
+#caixa1{
+    background-image: url(../imagens/fundo-caixa1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 280px;
+    background-color: black;
+    color: white;
+    border: solid 2px black;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 40px;
+    line-height: 3.3em;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+#caixa1 h2{
+    font-size: 30px;
+}
+
+#caixa1 a{
+    color: white;
+}
+
+#caixa2{
+    background-image: url(../imagens/fundo-coleção2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 280px;
+    background-color: black;
+    color: white;
+    border: solid 2px black;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+#caixa2 h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#caixa2 p{
+    margin-bottom: 30px;
+}
+    
+
+#caixa2 p a{
+    color: white;
+}
+
+#texto-meio2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+#texto-meio2 h2{
+    margin: 20px;
+    font-weight: 400;
+}
+
+#aspas{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#texto-meio2 p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+
+#produto-meio{
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+    text-align: center;
+}
+
+#imagens-3{
+    display: none;
+}
+
+#imagem-meio{
+    width: 350px;
+    margin-top: 20px;
+}
+
+#preço{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#preço p {
+    margin: 0px;
+
+}
+
+#comprar-{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#descrição2{
+    display: none;
+}
+
+#descrição{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+#descrição h2{
+    margin-bottom: 5px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+}
+
+#descrição p{
+    text-align: justify;
+    margin-top: 5px;
+}
+
+#descrição button{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 17px;
+    background-color: rgb(119, 77, 22);
+}
+
+#descrição button:hover{
+    background-color: rgb(129, 103, 69);
+    transition-duration: .5s;
+}
+
+#descrição button a {
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    text-decoration: none;
+}
+
+#quantidade{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+#texto-produto{
+    line-height: 1.5em;
+    margin: 20px 0;
+}
