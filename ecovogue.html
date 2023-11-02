@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estilo/celular.css">
     <link rel="stylesheet" href="estilo/todos.css">
     <title>EcoVogue</title>
@@ -10,18 +11,9 @@
 <body>
     <header>
 
-        <div id="busca">
-            <p><a href="#"><img src="imagens/Icons8-Ios7-Very-Basic-Search.48.png" alt="lupa" width="33px"></a></p>
-
-            <h1 id="ecovogue">EcoVogue</h1>
-
-            <div id="perfil-carrinho">
-
-                <p><a href="#"><img src="imagens/Custom-Icon-Design-Silky-Line-User-User-2.48.png" alt="usuario" width="33px"></a></p>
-
-                <p><a href="#"><img src="imagens/Ionic-Ionicons-Cart.48.png" alt="carrinho" width="33px"></a></p>
-
-            </div>
+        <div id="menu">
+            <span onclick="clickMenu()" class="material-symbols-outlined">menu</span>
+            <a href="#"><span class="material-symbols-outlined">shopping_cart</span></a>
         </div>
 
         <div id="nav">
@@ -31,15 +23,43 @@
             <a href="#">Carteiras</a>
             <a href="#">Estojos</a>
         </div>
+
+        <div id="ecovogue">
+            <h1>EcoVogue</h1>
+        </div>
+
     </header>
 
     <div id="texto">
         <p>Nossa loja é o lugar onde a moda se encontra com a individualidade, onde cada peça é cuidadosamente selecionada para ajudá-lo a expressar sua personalidade, seu estilo e sua história.</p>
     </div>
 
-    <div id="imagem-fundo">
-        <h2>100% eco</h2>
-        <p>Nossos produtos são confeccionados <br> 100% ecologicamente</p>
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="radio" id="radio1" checked>
+            <input type="radio" name="radio" id="radio2">
+
+            <div class="slide s1">
+                <div id="img-fundo1">
+                    <h1>Distinção</h1>
+                    <p>Um toque sofisticado para seus objetos do dia a dia</p>
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div id="img-fundo2">
+                    <h1>100% Eco</h1>
+                    <p>Nosso produtos são 100% ecologicos</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navegation">
+        <label for="radio1" class="bar"></label>
+        <label for="radio2" class="bar"></label>
 
     </div>
 
@@ -201,5 +221,16 @@
         
     </main>
     
+    <script>
+        function clickMenu(){
+            if (nav.style.display == 'block') {
+                nav.style.display = 'none'
+            } else {
+                nav.style.display = 'block'
+                
+            }
+        }
+    </script>
 </body>
+
 </html>
