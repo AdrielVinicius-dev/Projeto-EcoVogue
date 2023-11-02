@@ -80,7 +80,7 @@ div{
 #imagem-fundo h2{
     margin: 10px;
     text-align: center;
-    color: rgb(70, 70, 70);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-size: 3em;
     font-family: 'Roboto Mono', monospace;
@@ -102,10 +102,11 @@ main{
 
 main h1{
     color: rgb(94, 93, 93);
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-top: 35px;
     margin-bottom: 30px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #produtos{
@@ -123,7 +124,7 @@ main h1{
 }
 
 #linha1{
-    background-color: rgb(252, 251, 250);
+    background-color: rgb(145, 111, 80);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -133,29 +134,29 @@ main h1{
 
 #carteira{
     background-color: white;
-    min-width: 200px;
-    max-width: 160px;
+    max-width: 210px;
     height: 355px;
     border-radius: 10px;
     margin-top: 35px;
+    padding: 0 7px;
 }
 
 #mochila{
     background-color: white;
-    min-width: 200px;
-    max-width: 200px;
+    max-width: 210px;
     height: 355px;
     border-radius: 10px;
     margin-top: 35px;
+    padding: 0 7px;
 }
 
 #cinto{
     background-color: white;
-    min-width: 200px;
-    max-width: 250px;
+    max-width: 210px;
     height: 355px;
     border-radius: 10px;
     margin-top: 35px;
+    padding: 0 7px;
 }
 
 .comprar{
@@ -180,29 +181,30 @@ main h1{
 
 #mochila-couro{
     background-color: white;
-    min-width: 200px;
-    max-width: 300px;
+    max-width: 210px;
     max-height: 355px;
     border-radius: 10px;
     margin-top: 35px;
+    padding: 0 7px;
 }
 
 #relogio-couro{
     background-color: white;
-    min-width: 200px;
-    max-width: 300px;
+    max-width: 210px;
+    max-width: 210px;
     height: 355px;
     border-radius: 10px;
     margin-top: 35px;
+    padding: 0 7px;
 }
 
 #pochete{
     background-color: white;
-    min-width: 200px;
-    max-width: 200px;
+    max-width: 210px;
     max-height: 355px;
     border-radius: 10px;
     margin-top: 35px;
+    padding: 0 7px;
 }
 
 img:hover{
