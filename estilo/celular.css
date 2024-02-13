@@ -134,6 +134,7 @@ input{
 #img-fundo1 h1{
     margin-bottom: 20px;
     letter-spacing: .1em;
+    text-transform: uppercase;
 }
 
 #img-fundo1 p{
@@ -160,6 +161,7 @@ input{
 #img-fundo2 h1{
     margin-bottom: 20px;
     letter-spacing: .1em;
+    text-transform: uppercase;
 }
 
 #img-fundo2 p{
@@ -167,16 +169,19 @@ input{
 }
 
 #caixa-1{
-    background-image: url(../imagens/fundo-caixa1.jpg);
-    height: 500px;
-    width: 400px;
+    background-image: url(../imagens/fundo-coleção2.jpg);
+    height: 550px;
+    width: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     color: white;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 #caixa-1 h2{
@@ -185,25 +190,37 @@ input{
     margin-bottom: 20px;
 }
 
+#caixa-1 p{
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+
 #caixa-1 a{
     color: rgb(223, 223, 223);
     margin-top: 20px;
 }
 
 #caixa-2{
-    background-image: url(../imagens/fundo-coleção2.jpg);
+    background-image: url(../imagens/fundo-caixa1.jpg);
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    width: 400px;
+    height: 550px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
+}
+
+#caixa-2 p{
+    margin-top: 15px;
+    font-size: 20px;
+
 }
 
 #caixa-2 h2{
